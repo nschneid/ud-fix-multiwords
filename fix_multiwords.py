@@ -1,6 +1,6 @@
 # Used to explore + fix multiwords.
-# October 2020
-# Ethan Chi (ethanchi@cs.stanford.edu)
+# October 2020: Ethan Chi (ethanchi@cs.stanford.edu)
+# April 2021: Nathan Schneider (nathan.schneider@georgetown.edu)
 
 import os
 import sys
