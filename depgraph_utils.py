@@ -71,9 +71,9 @@ class DependencyGraph(object):
                 if reln != '_':
                     self.enhancedgraph.add_edge(gov, idx, reln)
 
-    def add_node(self, idx, form):
+    def add_node(self, idx, form, misc='_'):
         node = DependencyGraphNode(idx, form, lemma='_', upos='_', pos='_',
-                                  features='_', misc='_', enhanced='_')
+                                  features='_', misc=misc, enhanced='_')
         self.nodes[idx] = node
         self.enhancedgraph.nodes[idx] = node
 
